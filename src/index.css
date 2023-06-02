@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0B2434;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 1.875rem 1.25rem ;
+  border-radius: 0.625rem;
+  width: 20rem;
+  height: 20rem;
+  
+}
+
+.main {
+  background: #F5F5F5;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.main-header {
+  font-size: 1.6rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.03em;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.main-text {
+  font-family: 'Inter';
+  font-size: 0.819rem;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: -0.03em;
+  margin-top: 0;
+  width: 14.56rem;
+}
+
+.btn {
+  cursor: pointer;
+  border: 0rem;
+}
+
+.die-buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1.125rem;
+}
+
+.die-btn {
+  background: #FFFFFF;
+  width: 2.24rem;
+  height: 2.24rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  font-size: 20.5889px;
+  line-height: 24px;
+  text-align: center;
+  color: #2B283A;
+}
+
+.selected {
+  background: #59E391;
+}
+
+
+.roll-btn {
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 0.238rem;
+  text-align: center;
+  line-height: 19px;
+  width: 5.76rem;
+  height: 2.24rem;
+  font-size: 1rem;
+  color: white;
+  margin: 1.5rem;
+}
+
+.confetti {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+}
